@@ -1,0 +1,146 @@
+:root{
+  --primary-color: #77075b;
+  --secondary-color:tomato;
+  --tertiary-color:#684bd3;
+}
+
+body{
+  background-color: #bee5d3;
+  font-family: 'Roboto', sans-serif !important;
+  
+}
+
+.ms-auto .link{
+  color: var(--tertiary-color)!important;
+}
+
+.ms-auto .link:hover{
+  cursor: pointer;
+  color: var(--secondary-color) !important;
+  border-radius: 1rem;
+}
+.Navbar{
+  text-align: right;
+
+}
+.name{
+  text-align: center;
+  color: var(--secondary-color);
+}
+.name h3, h2{
+  text-align: center;
+  color: var(--primary-color);
+}
+.vicpic{
+  width: 15rem;
+  height: 15rem;
+ 
+}
+.text-center{
+  color: var(--secondary-color);
+}
+.hello p{
+  color: var(--primary-color)!important;
+}
+.social{
+ 
+  margin-left:30%;
+  padding-left: 1rem;
+}
+.social .twitter, .social .linked {
+  padding-left: 1rem;
+}
+.skills{
+  text-align: center;
+  margin-top: 3rem;
+  color :rgb(158, 12, 139);
+}
+.shots{
+  width: 19.5rem;
+  border-radius: 1rem;
+  animation: moveleft 2s ;
+  margin-top: 2rem;
+ 
+}
+
+.shots1{
+  width: 20rem;
+  border-radius: 1rem;
+  animation: moveright 2s ;
+  margin-top: 2rem;
+}
+.shots2{
+  width: 20rem;
+  height: 15.7rem;
+  border-radius: 1rem;
+  animation: moveleft 2s ;
+  margin-top: 2rem;
+}
+.shots3{
+  width: 20rem;
+  height: 15.7rem;
+  border-radius: 1rem;
+  animation: moveright 2s ease-in-out;
+  margin-top: 2rem;
+}
+.shots4{
+  width: 20rem;
+  border-radius: 1rem;
+  height: 15.7rem;
+  animation: moveleft 2s ease-in-out ;
+  margin-top: 2rem;
+}
+
+.shots5{
+  width: 20rem;
+  border-radius: 1rem;
+  height: 15.7rem;
+  animation: moveright 2s  ease-in-out;
+  margin-top: 2rem;
+}
+.projects{
+  color :rgb(158, 12, 139);
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}
+.butt{
+  margin-left: 7rem;
+}
+.main{
+  color:rgb(158, 12, 139);
+}
+
+@keyframes moveleft{
+  0%{
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  30%{
+    transform: translate(10px);
+  }   
+  100%{
+  transform:translate(5px);
+  }
+  }
+  
+  @keyframes moveright{
+    0%{
+      opacity: 0;
+      transform: translate(100%);
+    }
+    30%{
+      transform: translate(-10px);
+    }}
+
+
+    .vic, .aboutme, .social, .skills, .project, .contact{
+      animation: moveleft 1s;
+    }
+
+@media only screen and (max-width: 400px) {
+
+  .movecss{
+    margin-left: 5rem;
+  }
+}
